@@ -8,7 +8,7 @@ Step1: Lauch an ec2 instance with ubuntu server.
 
 Step2: Connect to server (ubuntu server)
 
-Step3: Automatic script to lauch # lamp-server.(lamp.sh)
+Step3: Automatic script to lanuch # lamp-server.(lamp.sh)
 
   ###
 
