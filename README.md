@@ -254,7 +254,7 @@ The certbot package we installed takes care of renewals by including a renew scr
 To check the status of this service and make sure it’s active and running, you can use:
 
 ###
-   sudo systemctl status certbot.timer
+     sudo systemctl status certbot.timer
    
 You’ll get output similar to this:
 
@@ -273,4 +273,9 @@ To test the renewal process, you can do a dry run with certbot:
      
 If you see no errors, you’re all set. When necessary, Certbot will renew your certificates and reload Apache to pick up the changes. If the automated renewal process ever fails, Let’s Encrypt will send a message to the email you specified, warning you when your certificate is about to expire.
 
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+### now can check the https secure connection by directly writing the https://your dns name
+     https://sk.minecraft.pe/E-commerce-/index.html
 
