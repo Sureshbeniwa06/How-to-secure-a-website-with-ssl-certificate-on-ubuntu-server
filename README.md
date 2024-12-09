@@ -1,4 +1,4 @@
-# ubuntu-lamp-ip-to-dns-point-lets-encrypt-ssl
+# ubuntu-lamp-ip-to-dns-point-lets-encrypt-SSL
 
 How To Secure Apache with Let's Encrypt on Ubuntu (ssl)-https secure website
 
