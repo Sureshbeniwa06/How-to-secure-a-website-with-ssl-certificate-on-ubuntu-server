@@ -10,7 +10,10 @@ Step2: Connect to server (ubuntu server)
 
 Step3: Automatic script to lauch # lamp-server.
 
-Step4: Check with ###
+Step4: Check with 
+
+###
+
                        systemctl status apache
                        systemctl restart apache 
 
