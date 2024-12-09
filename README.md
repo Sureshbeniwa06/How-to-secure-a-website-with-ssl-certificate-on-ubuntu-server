@@ -41,7 +41,7 @@ Step5: Point public ip address to DNS name
 
        website : https://freedns.afraid.org/  
 
-Step6: Now  check dns name point on or not??
+Step6: Now  check dns name point  or not??
 
 ### 
       https://sk.minecraft.pe/E-commerce-/index.html
@@ -99,7 +99,7 @@ If your current virtual host configuration doesn’t match the example, update i
 You should get a #Syntax OK as a response. If you get an error, reopen the virtual host file and check for any typos or missing characters. Once your configuration file’s syntax is correct, reload Apache so that the changes take effect:
 
 ### 
-   sudo systemctl reload apache2
+     sudo systemctl reload apache2
    
 With these changes, Certbot will be able to find the correct VirtualHost block and update it.
 
