@@ -20,8 +20,8 @@ Step4: Check with
 
 ###
 
-                       systemctl status apache
-                       systemctl restart apache 
+                      sudo systemctl status apache
+                      sudo systemctl restart apache 
 
  # you can see the screenshot file of point ip to dns 
 
@@ -29,8 +29,8 @@ Step4: Now go to file & clone here project from git hub
 
  ### 
    
-         cd /var/www/html/
-         git clone https://github.com/Sureshbeniwa06/E-commerce-.git
+       sudo  cd /var/www/html/
+       sudo git clone https://github.com/Sureshbeniwa06/E-commerce-.git
          
 
 Step5: check Dns is working or not ??? go to browser window write ip address/E-commerce-/index.html
