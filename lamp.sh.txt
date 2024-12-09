@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo ".....Let's Install LAMP Stack (Apache, MySQL, and PHP)....."
+echo "Updating the package repository..."
+sudo apt -y update
+
+echo "Installing Apache..."
+sudo apt install -y apache2
+
+echo "Adjusting Firewall to allow Apache..."
+sudo ufw allow in "Apache Full"
+sudo ufw reload
+
+echo "Enabling Apache to start on boot..."
+sudo systemctl enable apache2
+
+echo "Installing MySQL..."
+sudo apt install -y mysql-server
+
+echo "Securing MySQL installation..."
+sudo mysql_secure_installation
+
+echo "Installing PHP and required modules..."
+sudo apt install -y php libapache2-mod-php php-mysql
+
+echo "Creating a PHP info file for testing..."
+echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php > /dev/null
+
+echo "Restarting Apache to load PHP module..."
+sudo systemctl restart apache2
+
+echo "LAMP installation completed!"
+echo "You can test your setup by visiting http://localhost/info.php"
