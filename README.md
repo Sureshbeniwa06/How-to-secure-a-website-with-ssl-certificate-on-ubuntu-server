@@ -44,7 +44,7 @@ Step5: Point public ip address to DNS name
 Step6: Now  check dns name point  or not??
 
 ### 
-      https://sk.minecraft.pe/E-commerce-/index.html
+      http://sk.minecraft.pe/E-commerce-/index.html
 
 ------------------------------------------------------------------------------------------------------------
 
